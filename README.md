@@ -40,7 +40,7 @@ EuroSAT_RGB/
 
 训练好的最优权重 `best_model.npz` 见 Google Drive:
 
-https://drive.google.com/drive/folders/<your-folder-id>
+https://drive.google.com/drive/folders/1LrSJ-IBJQbkjXptu3kFJf7VmncE-sqEA?usp=sharing
 
 下载后放到项目根目录即可使用 `--mode test` 直接评估。
 
