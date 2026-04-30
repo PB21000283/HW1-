@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 模型权重 (放到 Google Drive,不要进仓库)
+*.npz
+best_model.npz
+tmp_search_model.npz
+
+# 数据集 (太大,不要进仓库)
+EuroSAT_RGB/
+*.zip
+
+# 训练产出
+*.log
+nohup.out
+
+# 编辑器/系统
+.DS_Store
+.idea/
+.vscode/
+
+# 但是这些图要保留,用于报告/README:
+# training_curves.png, w1_vis.png, errors.png, grid_search_log.json
